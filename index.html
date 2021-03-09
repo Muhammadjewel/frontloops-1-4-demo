@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 4</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- IMAGINE THAT THE CHAT BOX IS THE SECTION OF THE WEB PAGE -->
+  <section class="chat">
+    <h2 class="visually-hidden">Chat with Mark Zuckerberg</h2>
+    <header class="chat-header">
+      <span class="chat-username">Mark Zuckerberg</span>
+      <button class="chat-close-button" type="button" aria-label="Close chat"></button>
+    </header>
+    <div class="chat-main">
+      <section class="chat-messages">
+        <h3 class="visually-hidden">Conversation</h3>
+        <div class="chat-date-divider">
+          <time class="chat-date" datetime="2021-03-06">Today</time>
+        </div>
+        <div class="message message-sender">
+          <time class="message-time" datetime="10:53">10:53</time>
+          <div class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quos.</div>
+        </div>
+        <div class="message message-recipient">
+          <time class="message-time" datetime="10:58">10:58</time>
+          <div class="message-text">Lorem ipsum</div>
+        </div>
+        <div class="message message-sender">
+          <time class="message-time" datetime="11:00">11:00</time>
+          <div class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quos.</div>
+        </div>
+        <div class="message message-info message-alert">
+          <div class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quos.</div>
+        </div>
+      </section>
+
+      <hr>
+
+      <form class="new-message-form" action="https://echo.htmlacademy.ru" method="POST">
+        <input class="new-message-input" type="text" placeholder="Your message" name="message" aria-label="New message text" required>
+        <button class="new-message-send" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
